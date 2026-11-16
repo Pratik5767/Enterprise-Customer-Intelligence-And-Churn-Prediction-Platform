@@ -1,0 +1,7 @@
+customer_id,gender,senior_citizen,partner,dependents,tenure,phone_service,multiple_lines,internet_service,online_security,online_backup,device_protection,tech_support,streaming_tv,streaming_movies,contract_type,paperless_billing,payment_method,monthly_charges,total_charges,churn,rejection_reasons
+7590-VHVEG,Female,0,Yes,No,-5,No,No phone service,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Electronic check,29.85,29.85,No,invalid_tenure;subscription_start_in_future
+5575-GNVDE,Male,0,No,No,34,Yes,No,DSL,Yes,No,Yes,No,No,No,One year,No,Mailed check,abc,1889.5,No,invalid_type_monthly_charges
+3668-QPYBK,Male,0,No,No,2,Yes,No,DSL,Yes,Yes,No,No,No,No,Weekly,Yes,Mailed check,53.85,108.15,Yes,invalid_contract_type
+,Male,0,No,No,45,No,No phone service,DSL,Yes,No,Yes,Yes,No,No,One year,No,Bank transfer (automatic),42.3,1840.75,No,missing_customer_id
+9237-HQITU,Female,0,No,No,2,Yes,No,No,Yes,No,No,No,No,No,Month-to-month,Yes,Electronic check,70.7,151.65,Yes,inconsistent_online_security;inconsistent_online_backup;inconsistent_device_protection;inconsistent_tech_support;inconsistent_streaming_tv;inconsistent_streaming_movies
+9763-GRSKD,Male,0,Yes,Yes,13,Yes,No,DSL,Yes,No,No,No,No,No,Month-to-month,Yes,Mailed check,49.95,587.45,No,duplicate_customer_id

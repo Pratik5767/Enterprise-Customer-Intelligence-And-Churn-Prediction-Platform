@@ -1,0 +1,31 @@
+{
+  "total_rows": 7044,
+  "valid_rows": 7038,
+  "rejected_rows": 6,
+  "rejection_rate_pct": 0.09,
+  "exact_duplicate_rows": 1,
+  "duplicate_customer_ids": 1,
+  "total_charges_repaired_for_new_customers": 11,
+  "missing_values_by_column": {
+    "customer_id": 1,
+    "total_charges": 11
+  },
+  "rejection_reasons": {
+    "missing_customer_id": 1,
+    "duplicate_customer_id": 1,
+    "invalid_type_monthly_charges": 1,
+    "invalid_tenure": 1,
+    "subscription_start_in_future": 1,
+    "invalid_contract_type": 1,
+    "inconsistent_online_security": 1,
+    "inconsistent_online_backup": 1,
+    "inconsistent_device_protection": 1,
+    "inconsistent_tech_support": 1,
+    "inconsistent_streaming_tv": 1,
+    "inconsistent_streaming_movies": 1
+  },
+  "outliers_flagged": {
+    "monthly_charges_outlier": 0,
+    "total_charges_outlier": 0
+  }
+}
