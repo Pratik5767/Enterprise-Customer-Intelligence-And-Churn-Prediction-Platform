@@ -11,3 +11,5 @@ joblib
 pytest 
 httpx 
 python-multipart
+ipykernel
+requests
