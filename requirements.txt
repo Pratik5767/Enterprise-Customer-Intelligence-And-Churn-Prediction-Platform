@@ -13,3 +13,5 @@ httpx
 python-multipart
 ipykernel
 requests
+scipy 
+nbformat
