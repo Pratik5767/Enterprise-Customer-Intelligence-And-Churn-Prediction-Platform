@@ -1,0 +1,71 @@
+{
+  "model_version": "v1",
+  "model_name": "Logistic Regression (baseline)",
+  "selection_reason": "Random Forest scored highest but beat the baseline by less than 0.01 PR-AUC, so the simpler, more explainable baseline was kept.",
+  "trained_at": "2026-11-18T10:19:43.792366+00:00",
+  "dataset_version": "f44bd4528424",
+  "dataset_rows": 7038,
+  "train_rows": 5630,
+  "test_rows": 1408,
+  "churn_definition": "Churn = 1 if the customer left the company during the observation window (original `Churn` column = 'Yes'); 0 if they were still subscribed. The model is meant to score a currently active customer, using only account information known at scoring time (contract, services, billing, tenure so far), to estimate the chance they leave in the next billing period. Dataset caveat: this is a single snapshot, so for customers who already left, tenure and total charges describe the account at the moment they left.",
+  "input_features": [
+    "tenure",
+    "monthly_charges",
+    "total_charges",
+    "senior_citizen",
+    "partner",
+    "dependents",
+    "phone_service",
+    "multiple_lines",
+    "internet_service",
+    "online_security",
+    "online_backup",
+    "device_protection",
+    "tech_support",
+    "streaming_tv",
+    "streaming_movies",
+    "contract_type",
+    "paperless_billing",
+    "payment_method"
+  ],
+  "excluded_columns": {
+    "leakage": [
+      "churn",
+      "churn_flag",
+      "subscription_status"
+    ],
+    "sensitive": [
+      "gender"
+    ],
+    "non_predictive": [
+      "customer_id",
+      "subscription_start",
+      "is_outlier",
+      "monthly_charges_outlier",
+      "total_charges_outlier"
+    ]
+  },
+  "calibration": "sigmoid (Platt), 5-fold",
+  "threshold": 0.46,
+  "business_assumptions": {
+    "horizon_months": 12,
+    "contact_cost": 30.0,
+    "success_rate": 0.25,
+    "capacity_share": 0.25
+  },
+  "test_metrics_at_threshold": {
+    "threshold": 0.46,
+    "roc_auc": 0.8483331437023554,
+    "pr_auc": 0.6558962921461053,
+    "brier": 0.13411118040549933,
+    "precision": 0.6438746438746439,
+    "recall": 0.6042780748663101,
+    "f1": 0.623448275862069,
+    "tn": 909,
+    "fp": 125,
+    "fn": 148,
+    "tp": 226
+  },
+  "sklearn_version": "1.9.1",
+  "random_state": 42
+}
