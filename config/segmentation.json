@@ -1,0 +1,61 @@
+{
+  "risk_bands": {
+    "Low": 0.0,
+    "Medium": 0.3,
+    "High": 0.6
+  },
+  "value_tiers": {
+    "Low value": 0.0,
+    "Mid value": 0.5,
+    "High value": 0.75
+  },
+  "tenure_segments": {
+    "New (0-12 months)": 0,
+    "Developing (13-24 months)": 13,
+    "Established (25-48 months)": 25,
+    "Loyal (49+ months)": 49
+  },
+  "usage_bands": {
+    "Light (1-2 services)": 0,
+    "Moderate (3-4 services)": 3,
+    "Heavy (5+ services)": 5
+  },
+  "priority_matrix": {
+    "High|High value": {
+      "label": "Critical: high value, high risk",
+      "rank": 1
+    },
+    "High|Mid value": {
+      "label": "Priority: mid value, high risk",
+      "rank": 2
+    },
+    "Medium|High value": {
+      "label": "Priority: high value, medium risk",
+      "rank": 2
+    },
+    "High|Low value": {
+      "label": "Standard: low value, high risk",
+      "rank": 3
+    },
+    "Medium|Mid value": {
+      "label": "Standard: mid value, medium risk",
+      "rank": 3
+    },
+    "Medium|Low value": {
+      "label": "Monitor: low value, medium risk",
+      "rank": 4
+    },
+    "Low|High value": {
+      "label": "Protect: high value, low risk",
+      "rank": 4
+    },
+    "Low|Mid value": {
+      "label": "Healthy: mid value, low risk",
+      "rank": 4
+    },
+    "Low|Low value": {
+      "label": "Healthy: low value, low risk",
+      "rank": 4
+    }
+  }
+}

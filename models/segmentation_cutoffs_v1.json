@@ -1,0 +1,14 @@
+{
+  "value_tiers": {
+    "Low value": 0.0,
+    "Mid value": 70.35,
+    "High value": 89.85
+  },
+  "quantiles": {
+    "Low value": 0.0,
+    "Mid value": 0.5,
+    "High value": 0.75
+  },
+  "fitted_at": "2026-11-19T15:27:51.952502+00:00",
+  "n_customers": 7038
+}
