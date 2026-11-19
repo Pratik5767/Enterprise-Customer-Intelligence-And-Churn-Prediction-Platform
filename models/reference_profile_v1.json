@@ -1,0 +1,20 @@
+{
+  "tenure": 29.0,
+  "monthly_charges": 70.45,
+  "total_charges": 1410.725,
+  "senior_citizen": "No",
+  "partner": "No",
+  "dependents": "No",
+  "phone_service": "Yes",
+  "multiple_lines": "No",
+  "internet_service": "Fiber optic",
+  "online_security": "No",
+  "online_backup": "No",
+  "device_protection": "No",
+  "tech_support": "No",
+  "streaming_tv": "No",
+  "streaming_movies": "No",
+  "contract_type": "Month-to-month",
+  "paperless_billing": "Yes",
+  "payment_method": "Electronic check"
+}
