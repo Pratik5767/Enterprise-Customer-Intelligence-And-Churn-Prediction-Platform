@@ -3,6 +3,8 @@ __pycache__/
 *.py[codz]
 *$py.class
 models/*.joblib
+reports/customers/
+reports/exports/
 
 # C extensions
 *.so
