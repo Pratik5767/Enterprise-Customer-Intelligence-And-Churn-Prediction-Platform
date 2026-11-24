@@ -1,0 +1,2 @@
+campaign_id,name,type,owner,status,synthetic,enrolled,treatment,control,reach_rate_pct,offers_accepted,total_cost
+1,[SYNTHETIC DEMO] Retention calls 20261120-163429,phone_call,demo.manager@example.com,completed,True,534,400,134,88.5,134,23330.0
