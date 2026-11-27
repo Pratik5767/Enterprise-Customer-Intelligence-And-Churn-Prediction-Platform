@@ -1,0 +1,21 @@
+{
+  "total_customers": 7043,
+  "churned_customers": 1869,
+  "retained_customers": 5174,
+  "churn_rate_pct": 26.5,
+  "total_monthly_billing": 456116.6,
+  "churned_monthly_billing": 139130.85,
+  "churned_billing_share_pct": 30.5,
+  "active_customers": 5174,
+  "active_scored": 5171,
+  "active_unscored": 3,
+  "flagged_for_review": 633,
+  "high_band_name": "High",
+  "high_band_customers": 260,
+  "high_band_pct": 5.0,
+  "high_band_monthly_billing": 21013.45,
+  "avg_probability": 0.1852,
+  "active_annual_billing": 3802279.8,
+  "expected_revenue_at_risk": 821209.84,
+  "horizon_months": 12
+}

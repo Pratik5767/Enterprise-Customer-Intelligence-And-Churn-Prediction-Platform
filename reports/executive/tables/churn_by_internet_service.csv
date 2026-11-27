@@ -1,0 +1,4 @@
+internet_service,customers,churned,churn_rate_pct,ci_low_pct,ci_high_pct
+DSL,2421,459,19.0,17.4,20.6
+Fiber optic,3096,1297,41.9,40.2,43.6
+No,1526,113,7.4,6.2,8.8

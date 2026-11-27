@@ -1,0 +1,4 @@
+value_tier,customers,avg_probability,pct_high_risk,pct_flagged,monthly_billing,expected_revenue_at_risk,pct_Low,pct_Medium,pct_High,share_of_expected_loss_pct
+High value,1191,0.242,6.6,16.8,120865.0,344843.0,66.6,26.8,6.6,42.0
+Low value,2885,0.135,1.6,5.5,108150.0,207964.0,85.2,13.2,1.6,25.3
+Mid value,1095,0.255,12.4,25.0,87841.0,268403.0,62.0,25.6,12.4,32.7

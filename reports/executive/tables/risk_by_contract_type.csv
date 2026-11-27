@@ -1,0 +1,4 @@
+contract_type,customers,avg_probability,pct_high_risk,pct_flagged,monthly_billing,expected_revenue_at_risk,pct_Low,pct_Medium,pct_High,share_of_expected_loss_pct
+Month-to-month,2219,0.344,11.7,28.3,136417.0,636022.0,47.1,41.1,11.7,77.4
+One year,1305,0.114,0.0,0.4,81599.0,138871.0,94.9,5.1,0.0,16.9
+Two year,1647,0.028,0.0,0.0,98841.0,46317.0,100.0,0.0,0.0,5.6

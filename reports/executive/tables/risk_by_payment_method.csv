@@ -1,0 +1,5 @@
+payment_method,customers,avg_probability,pct_high_risk,pct_flagged,monthly_billing,expected_revenue_at_risk,pct_Low,pct_Medium,pct_High,share_of_expected_loss_pct
+Bank transfer (automatic),1285,0.125,0.5,4.7,83611.0,146171.0,86.3,13.2,0.5,17.8
+Credit card (automatic),1290,0.121,1.1,4.3,83285.0,137677.0,86.5,12.4,1.1,16.8
+Electronic check,1293,0.358,17.9,35.4,96026.0,429887.0,44.7,37.4,17.9,52.3
+Mailed check,1303,0.137,0.7,4.5,53934.0,107475.0,86.6,12.7,0.7,13.1

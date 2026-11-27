@@ -1,0 +1,10 @@
+priority_rank,priority_segment,customers,avg_probability,monthly_billing,expected_revenue_at_risk
+1,"Critical: high value, high risk",79,0.679,7684.0,62492.0
+2,"Priority: high value, medium risk",319,0.433,31584.0,163726.0
+2,"Priority: mid value, high risk",136,0.677,10826.0,87935.0
+3,"Standard: mid value, medium risk",280,0.452,22449.0,121709.0
+3,"Standard: low value, high risk",45,0.681,2503.0,20672.0
+4,"Protect: high value, low risk",793,0.122,81597.0,118624.0
+4,"Monitor: low value, medium risk",381,0.419,18689.0,94284.0
+4,"Healthy: low value, low risk",2459,0.081,86959.0,93008.0
+4,"Healthy: mid value, low risk",679,0.089,54565.0,58759.0
